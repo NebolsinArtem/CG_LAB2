@@ -56,10 +56,10 @@ def drawtriangle(x0, y0, x1, y1, x2, y2, img_mat, color, z_buffer):
     if (ymin < 0):
         ymin = 0
 
-    if (xmax < 0):
+    if (xmax > 2000):
         xmax = img_mat.shape[1]
 
-    if (ymax < 0):
+    if (ymax > 2000):
         ymax = img_mat.shape[0]
 
     
